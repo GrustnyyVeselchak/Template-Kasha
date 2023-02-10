@@ -138,6 +138,45 @@ html {
     padding-right: 25px;
   }
 
+  /* batton for adding new chalenge firs-fersion */
+  .add {
+    position: relative; /* временный блок позиционирования, нужно будет доработать при появлении основных блоков мейна*/
+    top: 10px;
+    left: 500px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+   }
+   
+   a img.add:hover {
+    color: red;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px #f0f0f0;
+   }
+  /* batton for adding new chalenge second-version*/
+   .testpluse {
+    color:#282727;
+
+    font-size: 50px;
+    padding: 0px 20px;
+    width: 50px;
+    height: 50px;
+    
+    border: 3px solid #282727;
+    border-radius: 50%;
+    
+    position: relative;
+    left: 500px;
+   }
+
+   .testpluse:hover {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+    background-color: #282727;
+    box-shadow: 0px 0px 10px #282727;
+   }
+
         /*  MEDIA QUERIES  */
 
        /*  EXTRA LARGE SCREEN  */
